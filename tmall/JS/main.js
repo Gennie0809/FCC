@@ -62,13 +62,13 @@ $(function(){
 	
 	/*nav_tit滑动*/
 	var $navAs = $("#nav").find(".nav_tit_1").siblings();
-	var iopacity=0;
-	var timer=null;
+	//var iopacity=0;
+	//var timer=null;
 	$.each($navAs,function(){
 		var t=$(this);
 		t.mouseover(function(){	
-			//t.find(".nav_tit_hover").show();
-			clearInterval(timer);
+			t.find(".nav_tit_hover").fadeIn(200);
+			/*clearInterval(timer);
 			timer=setInterval(function(){	
 				if(iopacity===100){
 					clearInterval(timer);
@@ -76,14 +76,16 @@ $(function(){
 					iopacity+=10;
 					t.find(".nav_tit_hover").css("opacity",iopacity/100);
 				}
-			},40);
+			},40);*/
 		});
 		t.mouseout(function(){
-			if(t.find(".nav_tit_hover").css("opacity",1)){
+			/*if(t.find(".nav_tit_hover").css("opacity",1)){
 				iopacity=0;
 				t.find(".nav_tit_hover").css("opacity",iopacity);
-				return false;
-			}
+				return false
+				
+			}*/
+				   t.find(".nav_tit_hover").fadeOut(1);
 		});
 	});
 	

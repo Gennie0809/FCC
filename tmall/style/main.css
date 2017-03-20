@@ -63,7 +63,7 @@ header{background: #fff;}
 .nav_tit a,.nav_tit .nav_tit_1{font:16px/36px "微软雅黑";color: #fff;line-height: 36px;margin: 0 15px;position: relative;float: left;}
 .nav_tit .nav_tit_1{width: 200px;background-color:  #C40000;font:bold 16px/36px "微软雅黑";margin-left: 0;}
 .nav_tit .nav_tit2{font-weight: bold;font-size: 17px;}
-.nav_tit .nav_tit_hover{width: 40px;height: 15px;background: url(../image/nav_tit_hover.png) left center no-repeat;background-size:40px 15px;position: absolute;top: -13px;left: 22%; opacity: 0;filter: alpha(opacity=0);}
+.nav_tit .nav_tit_hover{width: 40px;height: 15px;background: url(../image/nav_tit_hover.png) left center no-repeat;background-size:40px 15px;position: absolute;top: -13px;left: 22%; display: none;/*opacity: 0;filter: alpha(opacity=0);*/}
 .nav_tit1_icon{width: 15px;height: 12px;background: url(../image/icon/nav_tit1_icon.png) left center no-repeat;margin:0 14px 0 12px;}
 .nav_tit2{height: 36px;}
 .nav_tit2_icon{width: 90px;height: 36px;}
